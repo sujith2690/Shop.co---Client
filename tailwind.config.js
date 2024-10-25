@@ -10,6 +10,15 @@ export default {
         Satoshi: ['Satoshi', 'sans-serif'],
         Integral: ['Integral CF', 'sans-serif'],
       },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
+      animation: {
+        scroll: 'scroll 18s linear infinite',
+      },
     },
   },
   plugins: [],
